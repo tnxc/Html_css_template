@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(https://images.unsplash.com/photo-1533757879476-8f4a3cb1ae4b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.header-info {
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.header-info h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-btn input {
+    margin: 2rem 0;
+    padding: 0.5rem;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-btn button {
+    padding: 0.5rem;
+    width: 100px;
+    background-color: rgb(0, 121, 221);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.about-con {
+    padding: 0 10rem;
+}
+
+.about-title {
+    color: rgb(0, 121, 221);
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 30px;
+}
+
+.about-desc {
+    color: #909090;
+    margin: 1rem;
+}
+
+.about-img {
+    text-align: center;
+}
+
+.pricing {
+    background-color: #161c8e;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.pricing-info h3 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+
+.pricing-table {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.pricing-box {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.pricing-box-title {
+    background-color: #d8d8d8;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.pricing-box-info {
+    padding: 1rem;
+}
+
+.price {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pricing-more-info {
+    display: inline-block;
+    background-color: rgb(71, 232, 31);
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.clients {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.clients-title h3 {
+    color: #161c8e;
+    font-size: 2rem;
+}
+
+.clients-title p {
+    color: #6f6f6f;
+    margin: 1rem 0;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.clients-img img {
+    width: 20%;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 2rem 0;
+}
+
+.clients-img {
+    display: flex;
+}
+
+.newslatter {
+    background: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGNvbXB1dGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.newslatter-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #fff;
+}
+
+.newslatter-title h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.newslatter-title input {
+    margin: 2rem 0;
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.newslatter-title button {
+    padding: 0.5rem;
+    width: 100px;
+    background-color: rgb(0, 121, 221);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #161c8e;
+    padding: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 1rem;
+}
